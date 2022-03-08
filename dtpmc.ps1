@@ -2,9 +2,8 @@
 #
 # AUTHOR : P.Hoogeveen
 # AKA    : x0xr00t 
-# BUILD  : 31102021
-# TOOL   : Change LUA
-
+# BUILD  : 
+# TOOL   : TPM changer
 
 Write-Host "000000000000slo0ppyr00t000000000000"
 Write-Host "0 Sl0ppyR00t Disable TPM Settings 0"
