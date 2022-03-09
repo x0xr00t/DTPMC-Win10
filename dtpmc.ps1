@@ -10,7 +10,7 @@ Write-Host "0 Sl0ppyR00t Disable TPM Settings 0"
 Write-Host "000000000000slo0ppyr00t000000000000"
 Write-Host ""
 Write-Host ""
-Write-Host " {Sl0ppyR00t} Chaning Dir... "
+Write-Host " {Sl0ppyR00t} Chancing Dir... "
 Set-Location -Path Registry::HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup
 Write-Host "" 
 Write-Host ""
