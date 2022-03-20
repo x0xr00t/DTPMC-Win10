@@ -6,7 +6,7 @@ Disable win10 tpm check to install windows 11 without tpm2.0
 * download latest rufus with tpm disable function for mbr 
 * download the dtpmc-win10 source 
 * cd to dir
-* ./file.ps1 
+* ./file.ps1 or run the .exe 
 
 * if needed disable the tpm in bios if u have tpm1.2 
 * make ur usb with rufus-withtout tpm 
