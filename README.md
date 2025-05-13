@@ -1,16 +1,46 @@
-# DTPMC-Win10
-Disable win10 tpm check to install windows 11 without tpm2.0
+## 🚨 Sl0ppyR00t TPM Enforcement Bypass v1.0 🚨
+## 🛠️ What is this?
 
-# Usage
-* download the win 11 iso
-* download latest rufus with tpm disable function for mbr 
-* download the dtpmc-win10 source 
-* cd to dir
-* ./file.ps1 or run the .exe 
+* This is the official Sl0ppyR00t™ registry bypass script to disable Windows 11 TPM & CPU checks using pure native PowerShell.
 
-* if needed disable the tpm in bios if u have tpm1.2 
-* make ur usb with rufus-withtout tpm 
-* reboot system and load in the the win 11 installer 
+* Forget about GUI tweaks. Forget about M$ nags.
+* This script injects the correct DWORD key directly into the Windows registry, allowing you to upgrade Windows 11 on unsupported hardware without dancing in BIOS or crying over failed upgrades.
 
+## ⚙️ Features:
+```
+    ✔️ Powershell-native direct injection
 
-cheers enjoy windows 11   
+    ✔️ Uses New-ItemProperty properly (fixes old script mistakes using New-Item)
+
+    ✔️ Real-time registry readback (proof of successful injection)
+
+    ✔️ Fully unattended execution
+
+    ✔️ Dirty Sl0ppyR00t terminal feel
+```
+##  How does it work?
+```
+    Creates/Updates the registry key:
+
+    HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU = 1 (DWORD)
+
+    Verifies the applied value and reports back.
+
+    You reboot and slap Windows Setup in the face.
+```
+## 📜 Usage:
+```
+.\Sl0ppy-TpmBypass.ps1
+```
+## ⚡ Notes:
+```
+    You may still need to manually disable TPM in BIOS if it's enforced at hardware level.
+
+    For Red Team Operators only. Forensics safe (no event logs altered by default).
+
+    Works on Win10, Win11, and future builds until M$ changes the reg check logic.
+```
+## 🧪 Sl0ppy Certified 💯
+```
+    Use it. Abuse it. Forget it.
+```
