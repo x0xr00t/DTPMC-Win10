@@ -1,4 +1,4 @@
-## 🚨 Sl0ppyR00t TPM Enforcement Bypass v1.0 🚨
+## 🚨 Sl0ppyR00t TPM Enforcement Bypass v1.1 🚨
 ## 🛠️ What is this?
 
 * This is the official Sl0ppyR00t™ registry bypass script to disable Windows 11 TPM & CPU checks using pure native PowerShell.
